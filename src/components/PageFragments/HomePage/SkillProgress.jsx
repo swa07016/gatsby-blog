@@ -7,21 +7,20 @@ const SkillsProgress = () => (
     <h2>My Skills</h2>
     <Row gutter={[20, 20]}>
       <Col xs={24} sm={24} md={12}>
-
+        <ProgressBar
+          percent={75}
+          text="Html / Css"
+        />
         <ProgressBar
           percent={80}
           text="Javascript"
         />
         <ProgressBar
-          percent={95}
+          percent={85}
           text="ReactJS"
         />
         <ProgressBar
-          percent={85}
-          text="Gatsby"
-        />
-        <ProgressBar
-          percent={90}
+          percent={80}
           text="NodeJS"
         />
       </Col>
@@ -31,16 +30,16 @@ const SkillsProgress = () => (
           text="Python"
         />
         <ProgressBar
-          percent={90}
-          text="Mysql"
+          percent={70}
+          text="C++"
         />
         <ProgressBar
-          percent={78}
-          text="MongoDB"
+          percent={60}
+          text="Java"
         />
         <ProgressBar
-          percent={80}
-          text="Wordpress"
+          percent={50}
+          text="Spring"
         />
       </Col>
     </Row>

@@ -39,6 +39,13 @@ const Tags = ({ data }) => {
             <Row gutter={[30, 20]}>
               {
                 edges.map((val) => (
+                  (val.node.name === 'javascript'
+                  || val.node.name === 'nodejs'
+                  || val.node.name === 'reactjs'
+                  || val.node.name === 'html'
+                  || val.node.name === 'css'
+                  )
+                  && (
                   <Col key={val.node.name} xs={24} sm={24} md={12} lg={8}>
                     <TagCard
                       img={val.node.childImageSharp.fluid.src}
@@ -47,6 +54,7 @@ const Tags = ({ data }) => {
                       color={tagData[val.node.name].color}
                     />
                   </Col>
+                  )
                 ))
               }
             </Row>

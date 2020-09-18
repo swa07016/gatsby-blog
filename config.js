@@ -1,28 +1,28 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://rolwinreevan.com',
-  siteTitle: 'Rolwin Reevan',
-  siteDescription: 'Logbook of a software developer',
-  author: 'Rolwin Reevan',
+  siteUrl: 'https://rolwinreevan.com', // 변경하기
+  siteTitle: 'Seonghoon',
+  siteDescription: 'Logbook of a web developer',
+  author: 'Seonghoon Jeong',
   postsForArchivePage: 3,
-  defaultLanguage: 'en',
-  disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
+  defaultLanguage: 'ko',
+  disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js', // 변경
   pages: {
     home: '/',
     blog: 'blog',
     contact: 'contact',
     resume: 'resume',
     tag: 'tags',
+    project: 'projects',
   },
   social: {
-    github: 'https://github.com/rolwin100',
-    facebook: 'https://www.facebook.com/rolwin.monteiro',
-    twitter: 'https://twitter.com/rolwin100',
-    instagram: 'https://www.instagram.com/reevan100/',
+    github: 'https://github.com/swa07016',
+    facebook: 'https://www.facebook.com/profile.php?id=100004930516124',
+    instagram: 'https://www.instagram.com/sunghoon0725/',
     rss: '/rss.xml',
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
-  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
+  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/189fcc42-4734-47b7-89bc-6c617900fa7d', // 변경
+  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '', // 변경
   tags: {
     javascript: {
       name: 'javascript',

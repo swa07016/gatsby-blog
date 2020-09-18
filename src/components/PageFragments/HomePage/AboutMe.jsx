@@ -6,16 +6,10 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello !! My name is Rolwin Reevan Monteiro. I'm a full stack web developer who is
-    passionate about various web technologies. I like to experiment with different web
-    technologies. I have an experience of nearly 3 years working with LAMP stack, MERN stack
-    and ELK stack. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
-    is what Rolwin loves to do. Check my blog which I update every week for some Javascript and some
-    cool notes on web technologies.`,
-  paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
-    have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
-    keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+  paraOne: '안녕하세요! 저는 경희대학교 컴퓨터공학과에 재학중인 정성훈입니다.',
+  paraTwo: `웹 기술과 <b>Javascript</b>에 관심이 많아 <b>ReactJS</b>와 <b>NodeJS</b>를 꾸준히 공부하며 개발하고 있습니다.
+  <br>경희대학교 학우분들의 식사고민을 덜어 주기 위한 웹서비스 <b><a href="https://www.mealkhu.com" target="_blank">MEALKHU</a></b>를 운영하고 있습니다.
+  <br>2020-10-12부터 대한민국 공군 웹디자인병으로 복무하고 있습니다.`,
 };
 
 const AboutMe = () => {
@@ -38,30 +32,29 @@ const AboutMe = () => {
       <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="location.png"
-            height={60}
-            alt="location image"
-            textH4="Born and bought up in"
-            textH3="Mangalore, KA, India"
+            img="likelion.png"
+            alt="likelion image"
+            textH4="멋쟁이사자처럼 8기"
+            textH3="운영진"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="coffee.png"
-            alt="coffee image"
-            textH4="Love Coffee"
-            textH3="Coffee + Me = Happiness"
+            img="oss.png"
+            alt="oss image"
+            textH4="2020 오픈소스 컨트리뷰톤"
+            textH3="멘티"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="meeting.png"
-            alt="meeting image"
-            textH4="Socially Awkward"
-            textH3="At times"
+            img="rokaf.png"
+            alt="rokaf image"
+            textH4="대한민국 공군"
+            textH3="웹디자인병"
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
+        {/* <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="motorcycle.png"
             alt="motorcycle image"
@@ -88,7 +81,7 @@ const AboutMe = () => {
             height={60}
             width={60}
           />
-        </Col>
+        </Col> */}
       </Row>
     </>
   );

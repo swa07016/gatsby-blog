@@ -24,7 +24,7 @@ const ProjCard = (props) => {
               {name}
             </h4>
           </div>
-          <p>
+          <p className="textCenter">
             {description}
           </p>
         </div>

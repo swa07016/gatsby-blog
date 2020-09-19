@@ -28,6 +28,14 @@ const Project = () => (
               color="#940f0f"
             />
           </Col>
+          <Col key="StickBoard_KakaoMap" xs={24} sm={24} md={12} lg={8}>
+            <ProjCard
+              img="kakaomap.png"
+              name="StickBoard_KakaoMap"
+              description="StickyBoard 카카오맵 컴포넌트"
+              color="#ffc107"
+            />
+          </Col>
         </Row>
       </SidebarWrapper>
     </Layout>

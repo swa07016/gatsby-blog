@@ -31,7 +31,7 @@ const MEALKHU = () => (
             <img width="100%" src="../../mealkhu.png" className={style.bannerImg} alt="mealkhu" />
           </div>
 
-          <h3>프로젝트 설명</h3>
+          <h3>Project Description</h3>
           <p>
             MEALKHU는 경희대학교 학우분들의 식사고민을 덜어주기 위해 개발된 웹서비스입니다.
             평소 친구들과 밥을 먹을 때, 학교 주변 식당에 대한 정보가 적다보니 메뉴선정에 어려움이 있었습니다.
@@ -54,7 +54,7 @@ const MEALKHU = () => (
           <br />
           <br />
 
-          <h3>기술 스택</h3>
+          <h3>Tech Stack</h3>
           <code className="language-text" style={styles.techStack}>ReactJS</code>
           <code className="language-text" style={styles.techStack}>NodeJS</code>
           <code className="language-text" style={styles.techStack}>MongoDB</code>

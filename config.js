@@ -1,6 +1,6 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://rolwinreevan.com', // 변경하기
+  siteUrl: 'https://swa07016.github.io',
   siteTitle: 'Seonghoon',
   siteDescription: 'Logbook of a web developer',
   author: 'Seonghoon Jeong',
@@ -21,7 +21,7 @@ module.exports = {
     instagram: 'https://www.instagram.com/sunghoon0725/',
     rss: '/rss.xml',
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/189fcc42-4734-47b7-89bc-6c617900fa7d', // 변경
+  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/189fcc42-4734-47b7-89bc-6c617900fa7d',
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '', // 변경
   tags: {
     javascript: {

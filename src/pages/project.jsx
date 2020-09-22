@@ -36,6 +36,14 @@ const Project = () => (
               color="#ffc107"
             />
           </Col>
+		  <Col key="WeatherBoard" xs={24} sm={24} md={12} lg={8}>
+            <ProjCard
+              img="weatherboard.png"
+              name="WeatherBoard"
+              description="날씨 모니터링 대시보드"
+              color="#03a9f4"
+            />
+          </Col>
         </Row>
       </SidebarWrapper>
     </Layout>

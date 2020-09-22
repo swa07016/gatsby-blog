@@ -23,7 +23,7 @@ const Blog = ({ data }) => (
         <div className="marginTopTitle">
           <h1 className="titleSeparate">Blog</h1>
         </div>
-        <Row gutter={[20, 20]}>
+        <Row gutter={[30, 20]}>
           {
             data.allMarkdownRemark && data.allMarkdownRemark.edges.map((val, key) => (
               // eslint-disable-next-line react/no-array-index-key

@@ -17,7 +17,7 @@ const KakaoMap = () => (
       <SEO
         title="@stickyboard/kakao-map"
         description=""
-        path="/projects/stickyboard-kakao-map"
+        path="/projects/StickBoard_KakaoMap"
         keywords={['stickyboard', 'kakaomap', '@stickyboard/kakao-map', 'stickyboard-kakao-map']}
       />
       <Header />
@@ -27,7 +27,7 @@ const KakaoMap = () => (
             StickBoard_KakaoMap
           </h1>
           <div className={style.bannerImgContainer}>
-            <img width="100%" src="../../kakaomap.png" className={style.bannerImg} alt="mealkhu" />
+            <img width="100%" src="../../kakaomap.png" className={style.bannerImg} alt="stickyboard-kakaomap" />
           </div>
 
           <h3>Project Description</h3>
